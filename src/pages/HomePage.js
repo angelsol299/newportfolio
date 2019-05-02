@@ -24,7 +24,10 @@ class HomePage extends React.Component {
                 top: "50%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                color: "white"
+                color: "white",
+                backgroundColor: "#f1f1f1",
+                color: "rgba(0, 0, 0, 0.45)",
+                padding: "10px 25px"
               }}
             >
               Junior Frontend Developer

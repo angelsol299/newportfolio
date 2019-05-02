@@ -25,7 +25,10 @@ class NavBar extends Component {
   render() {
     return (
       <MDBNavbar
-        style={{ backgroundColor: "transparent" }}
+        style={{
+          backgroundColor: "#f1f1f1",
+          background: "rgba(0, 0, 0, 0.45)"
+        }}
         dark
         expand="md"
         fixed="top"
