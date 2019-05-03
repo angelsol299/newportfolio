@@ -20,13 +20,14 @@ class HomePage extends React.Component {
           <MDBRow>
             <h1
               style={{
+                fontSize: "60px",
                 position: "absolute",
                 top: "50%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                color: "white",
+                color: "black",
                 backgroundColor: "#f1f1f1",
-                color: "rgba(0, 0, 0, 0.45)",
+                //color: "rgba(0, 0, 0, 0.45)",
                 padding: "10px 25px",
                 whiteSpace: "nowrap" /*Evitar saltos de línea*/,
                 overflow: "hidden",
