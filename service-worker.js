@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/angelsol299/newportfolio/precache-manifest.76023a56d75c68b606c02c9ce33a4ad4.js"
+  "/newportfolio/precache-manifest.56e05a07e32dc7c45d5213770f512bd2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/angelsol299/newportfolio/index.html", {
+workbox.routing.registerNavigationRoute("/newportfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
