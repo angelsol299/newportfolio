@@ -17,12 +17,20 @@ const styles = theme => ({
   socialMediaAlign: {
     paddingBottom: "16px"
   },
-  imgPosition: {
-    marginBottom: "0px",
+  imgPositionLink: {
+    marginBottom: "2px",
     marginRight: "5px",
     marginLeft: "30px",
-    width: "22px",
-    height: "22px",
+    width: "23px",
+    height: "23px",
+    fill: "white"
+  },
+  imgPositionGit: {
+    marginBottom: "5px",
+    marginRight: "5px",
+    marginLeft: "30px",
+    width: "23px",
+    height: "23px",
     fill: "white"
   },
   hrLength: {
@@ -59,9 +67,12 @@ const Footer = props => {
           variant="body1"
           style={{ color: "white" }}
         >
-          <a href="/#">
+          <a
+            href="https://www.linkedin.com/in/angel-osoria-00a00332/"
+            style={{ color: "white" }}
+          >
             <svg
-              className={classes.imgPosition}
+              className={classes.imgPositionLink}
               style={{ fill: "white", width: "30px", height: "30px" }}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
@@ -80,9 +91,9 @@ const Footer = props => {
           color="textSecondary"
           variant="body1"
         >
-          <a href="/#">
+          <a href="https://github.com/angelsol299" style={{ color: "white" }}>
             <svg
-              className={classes.imgPosition}
+              className={classes.imgPositionGit}
               style={{ fill: "white", marginLeft: "10px" }}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
@@ -96,7 +107,7 @@ const Footer = props => {
                 overflow="visible"
               />
             </svg>
-            Instagram
+            GitHub
           </a>
         </Typography>
       </div>

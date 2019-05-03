@@ -11,7 +11,7 @@ import {
 } from "mdbreact";
 import "./HomePage.css";
 import VideoBackground from "./VideoBackground";
-import Footer from "../components/Footer";
+
 class HomePage extends React.Component {
   render() {
     return (
@@ -27,7 +27,11 @@ class HomePage extends React.Component {
                 color: "white",
                 backgroundColor: "#f1f1f1",
                 color: "rgba(0, 0, 0, 0.45)",
-                padding: "10px 25px"
+                padding: "10px 25px",
+                whiteSpace: "nowrap" /*Evitar saltos de línea*/,
+                overflow: "hidden",
+                width: "12.5em",
+                animation: "keyframes 5s steps(500)"
               }}
             >
               Junior Frontend Developer
@@ -35,7 +39,6 @@ class HomePage extends React.Component {
             <VideoBackground />
           </MDBRow>
         </MDBContainer>
-        <Footer />
       </div>
     );
   }

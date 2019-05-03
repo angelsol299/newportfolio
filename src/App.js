@@ -12,7 +12,7 @@ import {
 import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./Routes";
 import NavBar from "./components/NavBar";
-import Footer from "../src/components/NavBar";
+import Footer from "../src/components/Footer";
 
 class App extends Component {
   state = {
