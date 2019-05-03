@@ -12,7 +12,7 @@ import {
 import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./Routes";
 import NavBar from "./components/NavBar";
-import { Player, ControlBar } from "video-react";
+import Footer from "../src/components/NavBar";
 
 class App extends Component {
   state = {
@@ -43,12 +43,7 @@ class App extends Component {
         <div className="flyout">
           <NavBar />
           {collapseID && overlay} <Routes />
-          <MDBFooter color="default">
-            <p className="footer-copyright mb-0 py-3 text-center">
-              &copy; {new Date().getFullYear()} Copyright:{" "}
-              <a href="https://www.MDBootstrap.com"> Angel Osoria</a>
-            </p>
-          </MDBFooter>
+          <Footer />
         </div>
       </Router>
     );

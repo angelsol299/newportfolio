@@ -11,7 +11,7 @@ import {
 } from "mdbreact";
 import "./HomePage.css";
 import VideoBackground from "./VideoBackground";
-
+import Footer from "../components/Footer";
 class HomePage extends React.Component {
   render() {
     return (
@@ -35,6 +35,7 @@ class HomePage extends React.Component {
             <VideoBackground />
           </MDBRow>
         </MDBContainer>
+        <Footer />
       </div>
     );
   }
