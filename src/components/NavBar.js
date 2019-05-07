@@ -65,7 +65,7 @@ class NavBar extends Component {
               <MDBNavLink
                 style={{ color: "white" }}
                 onClick={this.closeCollapse("mainNavbarCollapse")}
-                to="/css"
+                to="/curriculum"
               >
                 Curriculum
               </MDBNavLink>
