@@ -6,8 +6,11 @@ import {
   MDBCardImage,
   MDBCardTitle,
   MDBCardText,
-  MDBCol
+  MDBCol,
+  MDBRow
 } from "mdbreact";
+import Experience from "./education/Experience";
+import Education from "./education/Education";
 
 const AlignLeft = {
   textAlign: "left",
@@ -20,33 +23,15 @@ const MarginLeft = {
 
 const Charts = () => {
   return (
-    <MDBCol className="d-flex justify-content-center">
+    <MDBCol
+      className="d-flex justify-content-center"
+      style={{ marginBottom: "-580px" }}
+    >
       <MDBCard style={{ width: "52rem" }}>
         <MDBCardBody>
-          <h4 className="h5-responsive" style={{ textAlign: "left" }}>
-            Experience
-          </h4>
-          <hr />
+          <Experience />
           <br />
-          <MDBCardTitle style={AlignLeft}>
-            Frontend Developer intern
-          </MDBCardTitle>
-          <MDBCardText style={AlignLeft}>
-            <strong>Digital Artist AB</strong> <br />
-            March 2019 – Present <br />
-            Stockholm, Sweden <br />
-            React JS, JSS, Material UI, Next.JS
-          </MDBCardText>
-          <hr />
-          <MDBCardTitle style={AlignLeft}>
-            Frontend Developer intern
-          </MDBCardTitle>
-          <MDBCardText style={AlignLeft}>
-            <strong>ICA Banken</strong> <br />
-            Oct 2018 – Dec 2018 <br />
-            Stockholm, Sweden <br />
-            React JS, TypeScript, Story Books, Styled Components and CSS.
-          </MDBCardText>
+          <Education />
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
