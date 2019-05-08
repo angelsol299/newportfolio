@@ -18,7 +18,7 @@ const styles = theme => ({
     paddingBottom: "16px"
   },
   imgPositionLink: {
-    marginBottom: "2px",
+    marginBottom: "2npm install gh-pages or yarn add gh-pagespx",
     marginRight: "5px",
     marginLeft: "30px",
     width: "23px",
@@ -117,7 +117,7 @@ const Footer = props => {
           variant="body2"
           color="textSecondary"
         >
-          Angel {year} © - All Rights Reserved
+          Angel Osoria {year} © - All Rights Reserved
         </Typography>
       </div>
     </div>

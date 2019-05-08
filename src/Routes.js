@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Curriculum from "./pages/curriculum/Curriculum";
+import Portfolio from "./pages/portfolio/Portfolio";
 
 class Routes extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class Routes extends React.Component {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/curriculum" component={Curriculum} />
+        <Route path="/portfolio" component={Portfolio} />
 
         <Route
           render={function() {
